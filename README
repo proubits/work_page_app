@@ -1,0 +1,30 @@
+== PageApp
+
+Create pages from xml of camera works
+
+=== Directory Structures:
+
+* +lib+ - application source codes
+* +spec+ - RSpec testing files
+* +Gemfile+ - gem requirements for this app
+* +Rakefile+ - define rake tasks
+* +app.rb+ - the application main file
+
+=== How to run this application
+
+First of all, you should have ruby 1.9.x+, ruby-gems and bundler installed in
+your system. And assuming you are using Linux system.
+
+Then run this command first,
+ bundle install
+
+After required gems are successfully install, you can run this command to check
+available rake tasks:
+ bundle exec rake -T
+
+=== Examples
+
+* <tt><b>bundle exec rake app</b></tt> - run the application with default inputs.
+* <tt><b>bundle exec rake spec</b></tt> - run the spec testing.
+* <tt><b>bundle exec rake rdoc</b></tt> - generate API documentation.
+* <tt><b>bundle exec rake read_rdoc</b></tt> - read generated API documentation in a browser.

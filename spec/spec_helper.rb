@@ -1,0 +1,6 @@
+require_relative '../lib/work.rb'
+require_relative '../lib/page.rb'
+require_relative '../lib/model'
+require_relative '../lib/make'
+require_relative '../lib/home'
+require_relative '../lib/pages.rb'
