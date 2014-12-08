@@ -1,3 +1,5 @@
+#http://www.activestate.com/blog/2014/01/using-docker-run-ruby-rspec-ci-jenkins
+#https://gist.githubusercontent.com/philwhln/8195797/raw/825f08fc726e9b890e32da8eea60df9547a6d00a/Dockerfile
 # docker image for running CC test suite
 FROM rubybox:latest
 MAINTAINER proubits <hynzhang@gmail.com>
